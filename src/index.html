@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/utils.css">
+
+    <title>Manav Mangal|  Remastered Website </title>
+</head>
+<body>
+        
+<nav class="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
+    <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
+        <a href="https://flowbite.com" class="flex items-center">
+            <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
+            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Manav Mangal Group Of Schools</span>
+        </a>
+        <button data-collapse-toggle="mega-menu-full" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-full" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+        </button>
+        <div id="mega-menu-full" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+            <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                <li>
+                    <a href="/" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Home</a>
+                </li>
+                <li>
+                    <button id="mega-menu-full-dropdown-button" data-collapse-toggle="mega-menu-full-dropdown" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-700 rounded md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Branches <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+                </li>
+                <li>
+                    <a href="/" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Legacy</a>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Our journey</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="mega-menu-full-dropdown" class="mt-1 border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y dark:bg-gray-800 dark:border-gray-600">
+        <div class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:px-6">
+            <ul>
+                <li>
+                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <div class="font-semibold">MMHS Chandigarh</div>
+                        <span class="text-sm font-light text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <div class="font-semibold">MMS Panchkula</div>
+                        <span class="text-sm font-light text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <div class="font-semibold">MMS Mohali</div>
+                        <span class="text-sm font-light text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <div class="font-semibold">MMSW Zirakpur</div>
+                        <span class="text-sm font-light text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <div class="font-semibold">MMSS(Junior) Mohali</div>
+                        <span class="text-sm font-light text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <div class="font-semibold">manav mangal SMART SCHOOL-88</div>
+                        <span class="text-sm font-light text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<marquee behavior="faster" direction="left" class="font-extrabold text-3xl ">Welcome to Manav Mangal Website</marquee>
+<div class="w-full bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div class="sm:hidden">
+        <label for="tabs" class="sr-only">Select tab</label>
+        <select id="tabs" class="bg-gray-50 border-0 border-b border-gray-200 text-gray-900 text-sm rounded-t-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            <option>Statistics</option>
+            <option>Services</option>
+            <option>FAQ</option>
+        </select>
+    </div>
+    <ul class="hidden text-sm font-medium text-center text-gray-500 divide-x divide-gray-200 rounded-lg sm:flex dark:divide-gray-600 dark:text-gray-400" id="fullWidthTab" data-tabs-toggle="#fullWidthTabContent" role="tablist">
+        <li class="w-full">
+            <button id="stats-tab" data-tabs-target="#stats" type="button" role="tab" aria-controls="stats" aria-selected="true" class="inline-block w-full p-4 rounded-tl-lg bg-gray-50 hover:bg-gray-100 focus:outline-none dark:bg-gray-700 dark:hover:bg-gray-600">Statistics</button>
+        </li>
+        <li class="w-full">
+            <button id="about-tab" data-tabs-target="#about" type="button" role="tab" aria-controls="about" aria-selected="false" class="inline-block w-full p-4 bg-gray-50 hover:bg-gray-100 focus:outline-none dark:bg-gray-700 dark:hover:bg-gray-600">Our Model</button>
+        </li>
+        <li class="w-full">
+            <button id="faq-tab" data-tabs-target="#faq" type="button" role="tab" aria-controls="faq" aria-selected="false" class="inline-block w-full p-4 rounded-tr-lg bg-gray-50 hover:bg-gray-100 focus:outline-none dark:bg-gray-700 dark:hover:bg-gray-600">FAQ</button>
+        </li>
+    </ul>
+    <div id="fullWidthTabContent" class="border-t border-gray-200 dark:border-gray-600">
+        <div class="hidden p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800" id="stats" role="tabpanel" aria-labelledby="stats-tab">
+            <dl class="grid max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-gray-900 sm:grid-cols-3 xl:grid-cols-6 dark:text-white sm:p-8">
+                <div class="flex flex-col items-center justify-center">
+                    <dt class="mb-2 text-3xl font-extrabold">5 </dt>
+                    <dd class="font-light text-gray-500 dark:text-gray-400">Branches</dd>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                    <dt class="mb-2 text-3xl font-extrabold">11000+</dt>
+                    <dd class="font-light text-gray-500 dark:text-gray-400">Students</dd>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                    <dt class="mb-2 text-3xl font-extrabold">1000+</dt>
+                    <dd class="font-light text-gray-500 dark:text-gray-400">Staff Members</dd>
+                </div>
+            </dl>
+        </div>
+        <div class="hidden p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800" id="about" role="tabpanel" aria-labelledby="about-tab">
+            <h2 class="mb-5 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">WHAT DO WE STAND FOR?</h2>
+            <!-- List -->
+            <ul role="list" class="space-y-4 text-gray-500 dark:text-gray-400">
+                <li class="flex space-x-2">
+                    <!-- Icon -->
+                    <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    <span class="font-light leading-tight">where Quality Education comes First</span>
+                </li>
+                <li class="flex space-x-2">
+                    <!-- Icon -->
+                    <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    <span class="font-light leading-tight">where every child is loved and cared for</span>
+                </li>
+                <li class="flex space-x-2">
+                    <!-- Icon -->
+                    <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    <span class="font-light leading-tight">where every child grows without any fear or favour</span>
+                </li>
+                <li class="flex space-x-2">
+                    <!-- Icon -->
+                    <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    <span class="font-light leading-tight">where recognition of merit encourages to dream big, to do big</span>
+                </li>
+                <li class="flex space-x-2">
+                  <!-- Icon -->
+                  <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                  <span class="font-light leading-tight">where every child's inherent potential and inborn goodness are brought into play to make him tall in success and tall in human values</span>
+              </li>
+              <li class="flex space-x-2">
+                <!-- Icon -->
+                <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                <span class="font-light leading-tight">where teachers are more like models / guides / friends rather than trainers and instructors</span>
+            </li>
+            <li class="flex space-x-2">
+              <!-- Icon -->
+              <svg class="flex-shrink-0 w-4 h-4 text-blue-600 dark:text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+              <span class="font-light leading-tight">where expectations of parents are respected and their opinions received with ever-open mind.</span>
+          </li>
+            </ul>
+        </div>
+        <div class="hidden p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800" id="faq" role="tabpanel" aria-labelledby="faq-tab">
+            <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-800 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+                <h2 id="accordion-flush-heading-1">
+                    <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
+                    <span>What is Flowbite?</span>
+                    <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </h2>
+                <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
+                    <div class="py-5 font-light border-b border-gray-200 dark:border-gray-700">
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
+                    <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+                    </div>
+                </div>
+                <h2 id="accordion-flush-heading-2">
+                    <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+                    <span>Is there a Figma file available?</span>
+                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </h2>
+                <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+                    <div class="py-5 font-light border-b border-gray-200 dark:border-gray-700">
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
+                    <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/" class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
+                    </div>
+                </div>
+                <h2 id="accordion-flush-heading-3">
+                    <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+                    <span>What are the differences between Flowbite and Tailwind UI?</span>
+                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </h2>
+                <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+                    <div class="py-5 font-light border-b border-gray-200 dark:border-gray-700">
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+                    <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
+                        <li><a href="https://flowbite.com/pro/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
+                        <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
+                    </ul>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </div>
+</div>
+<section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="flex flex-wrap md:-m-2 -m-1">
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://img1.wsimg.com/isteam/ip/222b5c40-cbe4-414e-b671-4cae8b60a0b0/Chandigarh%20Banner.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://img1.wsimg.com/isteam/ip/222b5c40-cbe4-414e-b671-4cae8b60a0b0/Panchkula%20Banner.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25">
+          </div>
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://img1.wsimg.com/isteam/ip/222b5c40-cbe4-414e-b671-4cae8b60a0b0/ezgif.com-gif-maker%20(3).jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25">
+          </div>
+        </div>
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://img1.wsimg.com/isteam/ip/222b5c40-cbe4-414e-b671-4cae8b60a0b0/Building-Dark%203%20a.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://img1.wsimg.com/isteam/ip/222b5c40-cbe4-414e-b671-4cae8b60a0b0/Junior%20Banner%20F.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://img1.wsimg.com/isteam/ip/222b5c40-cbe4-414e-b671-4cae8b60a0b0/ezgif.com-gif-maker-8ade064.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:100%25">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <div id="default-carousel" class="relative" data-carousel="static">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
+            <img src="https://img1.wsimg.com/isteam/ip/222b5c40-cbe4-414e-b671-4cae8b60a0b0/pic%2002-0001.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:100%25" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://img1.wsimg.com/isteam/ip/222b5c40-cbe4-414e-b671-4cae8b60a0b0/pic%2003-0001.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:100%25" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://img1.wsimg.com/isteam/ip/222b5c40-cbe4-414e-b671-4cae8b60a0b0/pic%2001-0002.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:100%25" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+    </div>
+    <!-- Slider indicators -->
+    <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+<br><br><br>
+<marquee behavior="faster" direction="right" class="font-extrabold text-2xl ">Branches</marquee>
+<section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+        <div class="sm:w-1/2 mb-10 px-4">
+          <div class="rounded-lg h-64 overflow-hidden">
+            <img alt="content" class="object-cover object-center h-full w-full" src="https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/76/0f/73/760f7399-24c6-e3f4-32e7-e7eb6cdd4469/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/1200x630wa.png">
+          </div>
+          <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">manav mangal High School</h2>
+          <p class="leading-relaxed text-base">Sector 21C, Chandigarh |
+
+            Affiliated with CBSE Delhi |
+            
+            Tel: +91 172 5039039 |
+            
+            mmhs21@manavmangalschool.com</p>
+            <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">
+              <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                  Go to Branch Webstie
+              </span>
+            </button>
+        </div>
+        <div class="sm:w-1/2 mb-10 px-4">
+          <div class="rounded-lg h-64 overflow-hidden">
+            <img alt="content" class="object-cover object-center h-full w-full" src="https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/ab/df/ce/abdfcef6-f5ed-8871-62c3-1a51d1cdd532/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/1200x600wa.png">
+          </div>
+          <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">manav mangal School</h2>
+          <p class="leading-relaxed text-base">Sector 11, Panchkula |
+
+            Affiliated with CBSE Delhi |
+            
+            Tel: +91 172 5066667 |
+            
+            manavmangalpkl.11@gmail.com</p>
+            <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">
+              <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                  Go to Branch Webstie
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+        <div class="sm:w-1/2 mb-10 px-4">
+          <div class="rounded-lg h-64 overflow-hidden">
+            <img alt="content" class="object-cover object-center h-full w-full" src="https://play-lh.googleusercontent.com/Udr_MA7BHLguLJApHhgXubVbZ4iRQdrERdGFt0s8u3pNM7H79wCLnvFZ-43QoExXBiQ">
+          </div>
+          <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">manav mangal SMART SCHOOL</h2>
+          <p class="leading-relaxed text-base">Sector 64(Phase X), Mohali |
+
+            Affiliated with CBSE Delhi |
+            
+            Tel: +91 172 4669900 |
+            
+            mmss64@manavmangalschool.com</p>
+            <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">
+              <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                  Go to Branch Webstie
+              </span>
+            </button>
+        </div>
+        <div class="sm:w-1/2 mb-10 px-4">
+          <div class="rounded-lg h-64 overflow-hidden">
+            <img alt="content" class="object-cover object-center h-full w-full" src="data:image/png;base64,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">
+          </div>
+          <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">manav mangal SMART WORLD</h2>
+          <p class="leading-relaxed text-base">Nagla, Zirakpur |
+
+            Affiliated with CBSE, DELHI |
+            
+            Tel: 7087800222, 7087800333 |
+            
+            manavmangalzrk@gmail.com</p>
+            <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">
+              <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                  Go to Branch Webstie
+              </span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<div data-dial-init class="fixed right-6 bottom-6 group">
+    <div id="speed-dial-menu-default" class="flex flex-col items-center hidden mb-4 space-y-2">
+        <button type="button" data-tooltip-target="tooltip-share" data-tooltip-placement="left" class="flex justify-center items-center w-[52px] h-[52px] text-gray-500 hover:text-gray-900 bg-white rounded-full border border-gray-200 dark:border-gray-600 shadow-sm dark:hover:text-white dark:text-gray-400 hover:bg-gray-50 dark:bg-gray-700 dark:hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 focus:outline-none dark:focus:ring-gray-400">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m-6 3.75l3 3m0 0l3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75" />
+          </svg>
+          
+            <span class="sr-only">How to Download Edusecure App</span>
+        </button>
+        <div id="tooltip-share" role="tooltip" class="absolute z-10 invisible inline-block w-auto px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+          How to Download Edusecure App
+            <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+        <button type="button" data-tooltip-target="tooltip-print" data-tooltip-placement="left" class="flex justify-center items-center w-[52px] h-[52px] text-gray-500 hover:text-gray-900 bg-white rounded-full border border-gray-200 dark:border-gray-600 shadow-sm dark:hover:text-white dark:text-gray-400 hover:bg-gray-50 dark:bg-gray-700 dark:hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 focus:outline-none dark:focus:ring-gray-400">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 13.5V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 9.75V10.5" />
+          </svg>
+          
+            <span class="sr-only">How to Setup Google Classroom</span>
+        </button>
+        <div id="tooltip-print" role="tooltip" class="absolute z-10 invisible inline-block w-auto px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+          How to Setup Google Classroom
+            <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+    </div>
+    <button type="button" data-dial-toggle="speed-dial-menu-default" aria-controls="speed-dial-menu-default" aria-expanded="false" class="flex items-center justify-center text-white bg-blue-700 rounded-full w-14 h-14 hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:focus:ring-blue-800">
+        <svg aria-hidden="true" class="w-8 h-8 transition-transform group-hover:rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+        <span class="sr-only">Open actions menu</span>
+    </button>
+</div>
+<section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col">
+        <div class="h-1 bg-gray-200 rounded overflow-hidden">
+          <div class="w-24 h-full bg-indigo-500"></div>
+        </div>
+        <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+          <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">FROM PHYSICAL TO ONLINE EDUCATION</h1>
+        </div>
+      </div>
+      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+          <div class="rounded-lg h-64 overflow-hidden">
+            <img alt="content" class="object-cover object-center h-full w-full" src="https://img1.wsimg.com/isteam/ip/222b5c40-cbe4-414e-b671-4cae8b60a0b0/G%20Class.jpg/:/cr=t:0%25,l:21.25%25,w:57.5%25,h:100%25/rs=w:365,h:365,cg:true">
+          </div>
+          <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Google Classroom</h2>
+          <p class="text-base leading-relaxed mt-2">manav mangal Group of Schools have registered with GOOGLE for GOOGLE CLASSROOM. It is one of the finest online platforms and is secure and user-friendly. To address beforehand the security concerns during online classes, we have created individual email IDs with GOOGLE for our students and teachers. 
+
+            Google Classroom does not only give us a platform for online classes but is serving as a great medium for Online assessment as well, its success rate being proved by the successful conduct of Unit test and Mid-term examination, both online. </p>
+          </a>
+        </div>
+        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+          <div class="rounded-lg h-64 overflow-hidden">
+            <img alt="content" class="object-cover object-center h-full w-full" src="https://img1.wsimg.com/isteam/ip/222b5c40-cbe4-414e-b671-4cae8b60a0b0/App.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:365,h:365,cg:true">
+          </div>
+          <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Edusecure App Manav Mangal</h2>
+          <p class="text-base leading-relaxed mt-2">manav mangal has launched the School Mobile App for the convenience of parents. This Mobile App helps parents have online access to Homework, Attendance, Circulars, School Messages, Announcements, Online Fee Payment, Test / Exam Results and Picture Gallery. The parents have round the clock access to all the above.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<video class="w-full h-auto max-w-full border border-gray-200 rounded-lg dark:border-gray-700" controls>
+    <source src="/assets/manav mangal school_ Videos for students _ School Song.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              <div class="flex items-center flex-wrap">
+                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<footer class="p-4 bg-white sm:p-6 dark:bg-gray-900">
+    <div class="md:flex md:justify-between">
+        <div class="mb-6 md:mb-0">
+            <a href="https://flowbite.com/" class="flex items-center">
+                <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="FlowBite Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+            </a>
+        </div>
+        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                <ul class="text-gray-600 dark:text-gray-400">
+                    <li class="mb-4">
+                        <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                    </li>
+                    <li>
+                        <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                <ul class="text-gray-600 dark:text-gray-400">
+                    <li class="mb-4">
+                        <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                <ul class="text-gray-600 dark:text-gray-400">
+                    <li class="mb-4">
+                        <a href="#" class="hover:underline">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <div class="sm:flex sm:items-center sm:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+        </span>
+        <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                <span class="sr-only">Facebook page</span>
+            </a>
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
+                <span class="sr-only">Instagram page</span>
+            </a>
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
+                <span class="sr-only">Twitter page</span>
+            </a>
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" /></svg>
+                <span class="sr-only">GitHub account</span>
+            </a>
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clip-rule="evenodd" /></svg>
+                <span class="sr-only">Dribbbel account</span>
+            </a>
+        </div>
+    </div>
+</footer>
+  
+</body>
+</html>
